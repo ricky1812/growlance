@@ -14,7 +14,7 @@ client.on('connect', function () {
 	})
 
 
-app.get('/', (req, res) => {
+app.get('/getData', (req, res) => {
 
 	axios.get('https://api.publicapis.org/entries')
   .then(response => {
@@ -38,7 +38,7 @@ app.listen(PORT, (error) => {
 });
 
 
-app.post('/', async (req, res) => {
+app.get('/', async (req, res) => {
 
 	async function isOverLimit(ip) {
 
