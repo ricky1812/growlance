@@ -37,6 +37,16 @@ cd growlance
 npm install
 node index.js
 ```
+## API LIST
+{{url}}/ - Home Page
+{{url}}/getData- Displays the requested data
+
+## Production
+This app has been hosted at http://65.0.179.117/ 
+http://65.0.179.117/  Displays the home API.
+http://65.0.179.117/getData  Displays the required data where we can make 20 requests per minute.
+
+
 
 
 
