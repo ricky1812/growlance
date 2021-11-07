@@ -66,7 +66,8 @@ app.get('/getData', async (req, res) => {
     return res.send(response.data);
   })
   .catch(error => {
-    console.log(error);
+    console.log(error)
+    return res.send(error.message);
   });
 	
 	});
